@@ -1,0 +1,12 @@
+## 📋 Casos de Teste Executados
+
+| ID | Cenário | Método | Resultado Esperado |
+|----|----------|----------|-------------------|
+| CT-01 | Listar usuários | GET | Status 200 |
+| CT-02 | Buscar usuário por ID | GET | Status 200 |
+| CT-03 | Buscar usuário inexistente | GET | Status 404 |
+| CT-04 | Criar usuário | POST | Status 201 |
+| CT-05 | Atualizar usuário | PUT | Status 200 |
+| CT-06 | Excluir usuário | DELETE | Status 204 |
+| CT-07 | Registro com sucesso | POST | Status 200/201 |
+| CT-08 | Registro sem senha | POST | Status 400 |
