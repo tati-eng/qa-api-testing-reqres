@@ -1,2 +1,2 @@
-# qa-api-testing-reqres
+# QA API Testing Project
 Projeto de testes de API utilizando Postman
