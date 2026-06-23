@@ -55,7 +55,7 @@
       "response": []
     },
     {
-      "name": "Buscar usuários po ID",
+      "name": "Buscar usuários por ID",
       "event": [
         {
           "listen": "test",
