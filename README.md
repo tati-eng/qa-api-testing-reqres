@@ -69,7 +69,7 @@ Estrutura JSON das respostas
 Campos obrigatórios (id, email, nome, cargo)
 Cenários positivos e negativos
 
-*Objetivo do projeto
+*Objetivo do projeto - 
 Demonstrar conhecimento em testes de API REST, validação de respostas e automação básica de testes utilizando Postman.
 
 📌 Projeto de estudos em QA / Testes de API
