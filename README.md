@@ -1,76 +1,86 @@
-🧪 Teste de API de QA - ReqRes (Postman)
+# 🧪 Teste de API de QA - ReqRes (Postman)
 
 Projeto de automação de testes de API utilizando Postman com foco em validação de endpoints REST, aplicando cenários positivos e negativos.
 
 📌 Projeto desenvolvido para portfólio de QA Júnior.
 
-🎯 O que foi testado
+---
+
+## 🎯 O que foi testado
+
 Este projeto valida o comportamento de uma API REST simulada, cobrindo:
 
-Validação de códigos de status HTTP
-Estrutura e conteúdo da resposta JSON
-Regras de negócio
-Cenários positivos e negativos
+- Validação de códigos de status HTTP  
+- Estrutura e conteúdo da resposta JSON  
+- Regras de negócio  
+- Cenários positivos e negativos  
 
-🔗 Endpoints testados
-✔ GET - Listar usuários
+---
 
-https://reqres.in/api/users?page=2
+## 🔗 Endpoints testados
 
-✔ Validação de status 200 e retorno de lista
-✔ GET - Buscar por ID do usuário
+### ✔ GET - Listar usuários
+https://reqres.in/api/users?page=2  
+✔ Validação de status 200 e retorno de lista  
 
-https://reqres.in/api/users/2
+---
 
-✔ Validação do usuário existente
-❌ GET - Usuário inexistente
+### ✔ GET - Buscar usuário por ID
+https://reqres.in/api/users/2  
+✔ Validação de usuário existente  
 
-https://reqres.in/api/users/999
+---
 
-✔ Validação de status 404
-✔ POST - Criar usuário
+### ❌ GET - Usuário inexistente
+https://reqres.in/api/users/999  
+✔ Validação de status 404  
 
-https://reqres.in/api/users
+---
 
-✔ Validação de status 201
+### ✔ POST - Criar usuário
+https://reqres.in/api/users  
+✔ Validação de status 201  
+✔ Validação de nome, job e ID gerado  
 
-✔ Validação de nome, trabalho e ID gerado
-✔ PUT - Atualizar usuário
+---
 
-https://reqres.in/api/users/2
+### ✔ PUT - Atualizar usuário
+https://reqres.in/api/users/2  
+✔ Validação de status 200  
+✔ Validação de dados atualizados  
+✔ Validação de updatedAt  
 
-✔ Validação de status 200
+---
 
-✔ Validação de dados atualizados
+### ✔ DELETE - Remover usuário
+https://reqres.in/api/users/2  
+✔ Validação de status 204  
 
-✔ Validação do campo updatedAt
-✔ DELETE - Remover usuário
+---
 
-https://reqres.in/api/users/2
+### ✔ POST - Registro com sucesso
+https://reqres.in/api/register  
+✔ Validação de status 200/201  
+✔ Validação de id e email retornados  
 
-✔ Validação de status 204
-✔ POST - Registro com sucesso
+---
 
-https://reqres.in/api/register
+### ❌ POST - Registro sem senha
+https://reqres.in/api/register  
+✔ Validação de status 400  
+✔ Mensagem de erro  
 
-✔ Validação de status 201
+---
 
-✔ Validação dos campos email e id retornados
-❌ POST - Registro sem senha
+## 🧠 O que foi validado
 
-https://reqres.in/api/register
+- Status codes (200, 201, 204, 400, 404)  
+- Estrutura JSON das respostas  
+- Cenários positivos e negativos  
+- Regras básicas de API REST  
 
-✔ Validação de status 400
+---
 
-✔ Mensagem: "Missing password"
-🧠 O que foi validado
+## 🎯 Objetivo do projeto
 
-Códigos de status corretos (200, 201, 204, 400, 404)
-Estrutura JSON das respostas
-Campos obrigatórios (id, email, nome, cargo)
-Cenários positivos e negativos
-
-*Objetivo do projeto - 
-Demonstrar conhecimento em testes de API REST, validação de respostas e automação básica de testes utilizando Postman.
-
-📌 Projeto de estudos em QA / Testes de API
+Demonstrar conhecimento em testes de API REST, validação de respostas e automação básica utilizando Postman.
