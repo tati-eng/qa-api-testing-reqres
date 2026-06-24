@@ -1,6 +1,7 @@
 🧪 Teste de API de QA - ReqRes (Postman)
 
 Projeto de automação de testes de API utilizando Postman com foco em validação de endpoints REST, aplicando cenários positivos e negativos.
+
 📌 Projeto desenvolvido para portfólio de QA Júnior.
 
 🎯 O que foi testado
